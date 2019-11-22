@@ -20,6 +20,9 @@ function Pilha() {
   this.sizePilha = () => {
     return this.index;
   };
+  this.isEmpty(){
+    return this.index === 0;
+  }
   this.showPilha = () => {
     return this.storage;
   };
@@ -47,3 +50,5 @@ console.log(p.showPilha());
 console.log(p.peekPilha());
 
 console.log(p.sizePilha());
+
+console.log(p.isEmpty());
