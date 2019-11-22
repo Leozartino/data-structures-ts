@@ -1,7 +1,10 @@
 function Pilha() {
   this.index = 0;
-  this.storage = [];
+  this.storage = {};
 
+  /* Em JavaScript , um objeto é um conjunto de pares chave e valor .
+  Para adicionar um valor à pilha , usaremos a variável index como a chave do objeto storage ,
+  e value será o seu valor . */
   this.insertPilha = value => {
     this.storage[this.index] = value;
     this.index += 1;
@@ -11,7 +14,7 @@ function Pilha() {
     if (this.index > 0) {
       this.index -= 1;
       const result = this.storage[this.index];
-      this.storage.splice(this.index, 1);
+      delete this.storage[this.index];
       return result;
     }
     return 'Não há itens na pilha';
@@ -20,7 +23,10 @@ function Pilha() {
   this.sizePilha = () => this.index;
   this.isEmpty = () => this.index === 0;
   this.showPilha = () => this.storage;
-
+  this.clearPilha = () => {
+    this.index = 0;
+    this.storage = {};
+  };
   this.peekPilha = () => this.storage[this.index - 1];
 }
 
