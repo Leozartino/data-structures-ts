@@ -17,19 +17,11 @@ function Pilha() {
     return 'Não há itens na pilha';
   };
 
-  this.sizePilha = () => {
-    return this.index;
-  };
-  this.isEmpty(){
-    return this.index === 0;
-  }
-  this.showPilha = () => {
-    return this.storage;
-  };
+  this.sizePilha = () => this.index;
+  this.isEmpty = () => this.index === 0;
+  this.showPilha = () => this.storage;
 
-  this.peekPilha = () => {
-    return this.storage[this.index - 1];
-  };
+  this.peekPilha = () => this.storage[this.index - 1];
 }
 
 const p = new Pilha();
@@ -44,6 +36,10 @@ console.log(p.showPilha());
 
 p.removePilha();
 p.removePilha();
+p.removePilha();
+p.removePilha();
+p.removePilha();
+
 
 console.log(p.showPilha());
 
