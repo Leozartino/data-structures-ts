@@ -6,9 +6,11 @@ class Queue {
     this.queue = {};
   }
 
-  insertQueue = value => {
-    this.queue[this.index] = value;
-    this.index += 1;
+  insertQueue = (...args) => {
+    args.forEach(value => {
+      this.queue[this.index] = value;
+      this.index += 1;
+    });
   };
   removeQueue = () => {
     if (!this.isEmpty()) {
@@ -33,10 +35,3 @@ class Queue {
     this.lowestIndex = 0;
   };
 }
-
-const bankQueue = new Queue();
-
-bankQueue.insertQueue("Jon");
-bankQueue.insertQueue("Marie");
-
-console.log(bankQueue.showQueue());
