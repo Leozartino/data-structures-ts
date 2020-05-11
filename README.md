@@ -74,7 +74,4 @@ Feel free to contribute by adding other data structure algorithms using typescri
 
 ## Auhors
 
-- **Leonardo de Andrade Oliveira (leozartino)** - _Javascript Developer_
-<p align="center">
-  Made with 💜
-</p>
+- **Leonardo de Andrade Oliveira (leozartino)** - _Javascript Developer_ Made with 💜
