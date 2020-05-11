@@ -19,11 +19,10 @@ npm install
 
 ## Usage example
 
-The classes of the algorithms have already been instantiated in the file src/algotithms /index.js. You can change this implementation if you want.
+The classes of the algorithms have already been instantiated in the file src/algotithms/index.js. You can change this implementation if you want.
 
 ```typescript
 import {InstantiatedStack, InstantiatedQueue, InstantiatedDeck} from './algorithms/index';
-import binarySearch from './algorithms/binarySearch';
 
 InstantiatedStack.push(5,6,7,8,9);
 
@@ -55,6 +54,8 @@ Distributed under the MIT license. See [MIT](https://choosealicense.com/licenses
 
 
 ## Contributing
+
+Feel free to contribute by adding other data structure algorithms using typescript. Add the files in the folder src/algorithms.
 
 1. Fork it (<https://github.com/Leozartino/data-structures-ts/fork>)
 2. Create your feature branch (`git checkout -b feature/newFeature`)
