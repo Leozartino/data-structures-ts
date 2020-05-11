@@ -3,7 +3,9 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![made-with-typescript](https://img.shields.io/badge/Made%20with-Typescript-1f425f.svg)](https://www.typescriptlang.org/)
-## Installation
+## Getting started
+
+After having the project cloned on your computer and opening the folder, you must install the dependencies.
 
 With yarn: run the following command in your project clone
 
