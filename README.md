@@ -46,6 +46,15 @@ InstantiatedDeck.addFront(3);
 console.log(InstantiatedDeck.showDeck()); // [3, 6]
 ```
 
+With yarn:
+```sh
+yarn start
+```
+Wiht npm:
+```sh
+npm run start
+```
+
 ## Meta
 
 Leonardo Oliveira – [@leozartino](https://twitter.com/leozartino) – leozartino@gmail.com
