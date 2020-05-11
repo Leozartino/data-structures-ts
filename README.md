@@ -71,3 +71,10 @@ Feel free to contribute by adding other data structure algorithms using typescri
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin feature/newFeature`)
 5. Create a new Pull Request
+
+## Auhors
+
+- **Leonardo de Andrade Oliveira (leozartino)** - _Javascript Developer_
+<p align="center">
+  Made with 💜
+</p>
