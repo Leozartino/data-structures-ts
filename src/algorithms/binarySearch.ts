@@ -1,4 +1,4 @@
-function binarySearch(data: Array<any>, target: number){
+function binarySearch(data: Array<number>, target: number){
 
   let rightPointer = data.length - 1;
   let leftPointer = 0;

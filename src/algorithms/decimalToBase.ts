@@ -1,4 +1,4 @@
-import { Stack } from './index';
+import {InstantiatedStack } from './index';
 
 function decimalToBase(decNumber: number, base: number) {
   const digits = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -11,12 +11,12 @@ function decimalToBase(decNumber: number, base: number) {
 
   while (decNumber > 0) {
     rem = Math.floor(decNumber % base);
-    Stack.push(rem);
+    InstantiatedStack.push(rem);
     decNumber = Math.floor(decNumber / base);
   }
 
-  while (!Stack.isEmpty()) {
-    baseString += digits[Stack.pop()];
+  while (!InstantiatedStack.isEmpty()) {
+    baseString += digits[InstantiatedStack.pop()];
   }
 
   return baseString;
