@@ -21,7 +21,7 @@ npm install
 
 ## Usage example
 
-The classes of the algorithms have already been instantiated in the file src/algotithms/index.js. You can change this implementation if you want.
+The classes of the algorithms have already been instantiated in the file src/main.js. You can change this implementation if you want.
 
 ```typescript
 import Stack from './algorithms/stack';
