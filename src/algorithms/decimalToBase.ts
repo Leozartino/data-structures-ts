@@ -1,6 +1,7 @@
-import {InstantiatedStack } from './index';
+import Stack  from './stack';
 
 function decimalToBase(decNumber: number, base: number) {
+  const InstantiatedStack = new Stack();
   const digits = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   let rem: number;
   let baseString = '';
