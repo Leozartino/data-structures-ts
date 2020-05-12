@@ -36,7 +36,7 @@ const InstantiatedDeck = new Deck();
 
 InstantiatedStack.push(5, 6, 7, 8, 9);
 
-console.log(InstantiatedStack.showStack()); [5, 6, 7, 8, 9]
+console.log(InstantiatedStack.showStack()); // [5, 6, 7, 8, 9]
 InstantiatedStack.pop(); // 9 
 console.log(InstantiatedStack.showStack()); // [5, 6, 7, 8]
 
