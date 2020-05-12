@@ -24,14 +24,21 @@ npm install
 The classes of the algorithms have already been instantiated in the file src/algotithms/index.js. You can change this implementation if you want.
 
 ```typescript
-import {InstantiatedStack, InstantiatedQueue, InstantiatedDeck} from './algorithms/index';
+import Stack from './algorithms/stack';
+import Queue from './algorithms/queue';
+import Deck from './algorithms/deck';
+import binarySearch from './algorithms/binarySearch';
 
-InstantiatedStack.push(5,6,7,8,9);
+const InstantiatedStack = new Stack();
+const InstantiatedQueue = new Queue();
+const InstantiatedDeck = new Deck();
 
-console.log(InstantiatedStack.showStack()); // [5,6,7,8,9]
-InstantiatedStack.pop(); // 9
-console.log(InstantiatedStack.showStack()); // [5,6,7,8]
 
+InstantiatedStack.push(5, 6, 7, 8, 9);
+
+console.log(InstantiatedStack.showStack()); [5, 6, 7, 8, 9]
+InstantiatedStack.pop(); // 9 
+console.log(InstantiatedStack.showStack()); // [5, 6, 7, 8]
 
 InstantiatedQueue.enqueue(12);
 InstantiatedQueue.enqueue(55);
@@ -41,11 +48,12 @@ console.log(InstantiatedQueue.showQueue()); // [12, 55, 9]
 InstantiatedQueue.dequeue(); // 12
 console.log(InstantiatedQueue.showQueue()); // [55, 9]
 
-
 InstantiatedDeck.addBack(6);
 InstantiatedDeck.addFront(3);
 
-console.log(InstantiatedDeck.showDeck()); // [3, 6]
+console.log(InstantiatedDeck.showDeck());  // [3, 6]
+
+console.log(binarySearch([67, 69, 70, 85, 100, 102, 254, 800], 70));
 ```
 
 With yarn:
