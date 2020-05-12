@@ -53,7 +53,7 @@ InstantiatedDeck.addFront(3);
 
 console.log(InstantiatedDeck.showDeck());  // [3, 6]
 
-console.log(binarySearch([67, 69, 70, 85, 100, 102, 254, 800], 70));
+console.log(binarySearch([67, 69, 70, 85, 100, 102, 254, 800], 70)); // 70
 ```
 
 With yarn:
