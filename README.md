@@ -3,6 +3,16 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![made-with-typescript](https://img.shields.io/badge/Made%20with-Typescript-1f425f.svg)](https://www.typescriptlang.org/)
+## Requirements
+
+This application requires the following modules:
+
+ * :dragon_face: Node.js (https://nodejs.org/en/)
+ * :memo:	 Code Editor (https://code.visualstudio.com/)
+ 
+ Optional: 
+ * 🧶 :cat2: Yarn (https://yarnpkg.com/)
+
 ## Getting started
 
 After having the project cloned on your computer and opening the folder, you must install the dependencies.
