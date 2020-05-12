@@ -5,7 +5,7 @@
 [![made-with-typescript](https://img.shields.io/badge/Made%20with-Typescript-1f425f.svg)](https://www.typescriptlang.org/)
 ## Requirements
 
-This application requires the following modules:
+This application requires the following resources:
 
  * :dragon_face: Node.js (https://nodejs.org/en/)
  * :memo:	 Code Editor (https://code.visualstudio.com/)
