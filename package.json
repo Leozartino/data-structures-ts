@@ -15,6 +15,6 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "ts-node-dev --transpileOnly --ignore-watch node_modules src/main.ts"
+    "start": "ts-node-dev --ignore-watch node_modules src/main.ts"
   }
 }
